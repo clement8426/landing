@@ -1,0 +1,74 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700");
+
+/* Fontawesome */
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* import */
+
+@import url("components/cards.css");
+@import url("components/button.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: url(https://lewagon.github.io/landing-page-challenge/images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+.banner h1 {
+  color: #fff;
+}
+.banner p {
+  color: #fff;
+}
+.btn-treehouse {
+  border-radius: 30px;
+}
+
+.container .cards {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer p {
+  color: #6b6c6c;
+}
+
+.footer .fas {
+  color: red;
+}
+
+.footer a {
+  font-size: 30px;
+  color: #1edd88;
+}
